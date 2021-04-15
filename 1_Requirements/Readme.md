@@ -12,6 +12,9 @@ calculates Turns ratio based on data.Turns Ratio=(primary number of turns)/(seco
 Program takes general input data,then depending on the parameter like number of primary turns,primary voltage,secondary turns for desired secondary voltage is determined.
 Transformer voltage,current and turns relationship is given by,![Turns ratio](https://qph.fs.quoracdn.net/main-qimg-02b05af4d7ebccd5c3d5e8c480884b43.webp)
 
+## SWOT Analysis
+![SWOT](SWOT.png)
+
 # 4W&#39;s and 1&#39;H
 
 ## Who:
