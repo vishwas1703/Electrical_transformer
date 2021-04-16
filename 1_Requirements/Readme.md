@@ -47,4 +47,3 @@ HR02| **N2**-Number of secondary turns| Technical|
 |LR02|Number of conductor wire wound on secondary side to induce secondary output voltage|HR02|
 |LR03|Primary voltage in volts applied to transformer|HR03|
 |LR04|Secondary voltage in volts where load is connected|HR04|
-![saurav]()
