@@ -26,17 +26,5 @@ typedef struct
  * variables declaration to save transformer parameters
  * 
  */
-int scan_transformer(transformer_t *tranp)
-/**
- * @brief read input from user
- * 
- * takes primary turns,primary voltage,secondary turns,input current data
- * 
- */
-transformer_t set_v1_for_v2(transformer_t *tranp, double volt2)
-/**
- * @brief calculation
- * caluclate the primary voltage for desired secondary voltage
- * 
- */
+
 #endif

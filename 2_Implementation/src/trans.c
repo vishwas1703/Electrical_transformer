@@ -1,6 +1,14 @@
 #include <stdio.h>
 #include "data.h"
-void user()
+double v_out(double, int, int);                             /* Computes the output voltage of a transformer */
+double i_out(double, int, int);                             /* Computes the output current of a transformer */
+transformer_t set_n1_for_v2(transformer_t *, double);       /* Set the number of primary wiring to produce the desired voltage for v2 */
+transformer_t set_v1_for_v2(transformer_t *, double);       /* Set the primary voltage to produce the desired voltage for v2 */
+transformer_t set_n2_for_v2(transformer_t *, double);       /* Set the number of secondary wiring to produce the desired voltage for v2 */
+transformer_t set_n2_for_i2(transformer_t *, double);       /* Set the number of secondary wiring to produce the desired current for i2 */
+int scan_transformer(transformer_t *);                      /* Gets values for the transformer */
+void print_transformer(transformer_t);                      /* Prints calculated values for the transformer */
+int user()
 {
     /* Declare variables */
     transformer_t tran_v;                                   /* Contains n1, n2, v1, i1 for transformer calculation */
