@@ -2,5 +2,5 @@
 #include "data.h"
 int main()
 {
-    trans();
+    void trans();
 }
